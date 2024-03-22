@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>Document</title>
+    <title>Inicio</title>
 </head>
 <body>
     <header>
@@ -12,6 +12,7 @@
             <ul>
                 <li>
                     <a class="home" href="index.php">HOME</a>
+                    <a class="home" href="contacto.php">CONTACTO</a>
                 </li>
             </ul>
         </nav>
