@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Registro</title>
+    <title>Login</title>
 </head>
 <body>
     <header>
@@ -23,26 +23,7 @@
     </header>
     <main>
         
-    <form action="registrarUsuarios.php" method="post" class="container-md mt-4">
-  <div class="form-group">
-    <label for="nombre">Nombre</label>
-    <input type="text" class="form-control" name="nombre" id="name" aria-describedby="emailHelp" placeholder="Nombre">
-  </div>
-
-  <div class="form-group">
-    <label for="apellido">Apellido</label>
-    <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Apellido">
-  </div>
-
-  <div class="form-group">
-    <label for="fecha_nacimiento">Fecha de nacimiento</label>
-    <input type="date" class="form-control" name="fecha_nacimiento" id="fecha_nacimiento" placeholder="Fecha de nacimiento">
-  </div>
-
-  <div class="form-group">
-    <label for="dni">DNI</label>
-    <input type="number" class="form-control" name="dni" id="dni" placeholder="DNI">
-  </div>
+    <form action="iniciarSesion.php" method="POST" class="container-md mt-4">
 
   <div class="form-group">
     <label for="email">Email</label>
@@ -54,11 +35,8 @@
     <input type="password" class="form-control" name="password" id="password" placeholder="Password">
   </div>
 
-  <button type="submit" value="Register" class="btn btn-primary mt-1">Registrarse</button>
+  <button type="submit" value="Register" class="btn btn-success mt-1">Iniciar sesion</button>
 </form>
 
     </main>
 </html>
-
-
-

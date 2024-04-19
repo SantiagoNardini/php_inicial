@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
     <title>Inicio</title>
 </head>
 <body>
@@ -12,15 +12,16 @@
             <ul>
                 <li>
                     <a class="home" href="index.php">HOME</a>
-                    <a class="home" href="contacto.php">CONTACTO</a>
-                    <a class="home" href="registro.php">REGISTRO</a>
+                    <a class="home" href="./php/encuesta.php">ENCUESTA</a>
+                    <a class="home" href="./php/registro.php">REGISTRO</a>
+                    <a class="home" href="./php/login.php">LOGIN</a>
+                    <a class="home" href="./php/perfil.php">PERFIL</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main> 
-        <h1>Bienvenido</h1>
 
         <?php 
         $curso = "PHP MYSQL Inicial";
